@@ -1,4 +1,4 @@
-package exercicios.exercicioextra2;
+package exerciciosextras.exercicioextra2;
 //Classe filha, herdando da superclass
 public class Livro extends Produto {
 

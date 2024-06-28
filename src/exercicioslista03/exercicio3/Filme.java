@@ -53,10 +53,10 @@ public class Filme {
     // Método para exibir os detalhes do filme
     public void mostrarDetalhes() {
         System.out.println("--------DETALHES DO FILME---------");
-        System.out.println("Título: " + titulo);
-        System.out.println("Diretor: " + diretor);
-        System.out.println("Ano de Lançamento: " + anoLancamento);
-        System.out.println("Gênero: " + genero);
+        System.out.println("Título: " + getTitulo());
+        System.out.println("Diretor: " + getDiretor());
+        System.out.println("Ano de Lançamento: " + getAnoLancamento());
+        System.out.println("Gênero: " +getGenero());
         System.out.println("----------------------------------");
     }
 }

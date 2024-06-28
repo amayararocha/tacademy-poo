@@ -1,4 +1,4 @@
-package exercicios.exercicioextra2;
+package exerciciosextras.exercicioextra2;
 
 //Superclass - abstrata para não ser instanciada
 public abstract class Produto {

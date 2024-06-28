@@ -1,4 +1,4 @@
-package exercicios.exercicioextra1;
+package exerciciosextras.exercicioextra1;
 
 public class Main {
 
