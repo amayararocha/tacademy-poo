@@ -1,4 +1,4 @@
-package exercicioslista03.exercio1;
+package exercicioslista03.exercicio1;
 
 public class Pessoa {
 
