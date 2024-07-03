@@ -5,27 +5,22 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // Criando uma lista para armazenar os seres vivos
-        List<SerVivo> seresVivos = new ArrayList<>();
 
-        // Cadastrando uma planta
-        SerVivo cacto = new Planta("Cacto", "Magnoliophyta", "Magnoliopsida", "Caryophyllales", "Cactaceae", "Cactaceae", "Cactaceae");
+        List<Especie> seresVivos = new ArrayList<>();
+
+        Especie cacto = new Especie("Vegetal", "Magnoliophyta", "Magnoliopsida", "Caryophyllales", "Cactaceae", "Cactaceae", "Cactaceae", "Cacto");
         seresVivos.add(cacto);
 
-        // Cadastrando um fungo
-        SerVivo bolor = new Fungo("Bolor", "Zygomycota", "Zygomycetes", "Mucorales", "Mucoraceae", "Rhizopus", "Rhizopus stolonifer");
+        Especie bolor = new Especie("Fungi", "Zygomycota", "Zygomycetes", "Mucorales", "Mucoraceae", "Rhizopus", "Rhizopus stolonifer", "Bolor");
         seresVivos.add(bolor);
 
-        // Cadastrando um animal
-        SerVivo elefante = new Animal("Elefante", "Chordata", "Mammalia", "Proboscidea", "Elephantidae", "Elephas", "Elephas maximus");
+        Especie elefante = new Especie("Animal", "Chordata", "Mammalia", "Proboscidea", "Elephantidae", "Elephas", "Elephas maximus", "Elefante");
         seresVivos.add(elefante);
 
-        // Exibindo os seres vivos cadastrados
-        for (SerVivo ser : seresVivos) {
-            System.out.println("=======================");
-            System.out.println("Tipo: " + ser.tipo());
+        for (Especie ser : seresVivos) {
+            System.out.println("=====================");
             System.out.println(ser);
-            System.out.println("=======================");
+            System.out.println("=====================");
         }
     }
 }
